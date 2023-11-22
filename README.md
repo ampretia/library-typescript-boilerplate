@@ -18,3 +18,5 @@ git clone https://github.com/ampretia/library-typescript-boilerplate.git <projec
 "If I've seen further it's because I've stood on the shoulders of giants"
 
 - [Using ESLint and Prettier in a TypeScript Project](https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project) [@RobbertCooper_RC](https://twitter.com/RobertCooper_RC)
+
+https://github.com/craftingmod/typescript-esm-template/blob/main/tsconfig.json
