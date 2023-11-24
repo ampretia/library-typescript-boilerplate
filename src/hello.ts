@@ -5,10 +5,11 @@ import sourceMapSupport from 'source-map-support';
 sourceMapSupport.install();
 
 import chalk from 'chalk';
-import { World } from './world.js';
 import fs from 'fs';
+import { World } from './world.js';
 
 const w = new World();
-const pj = fs.readFileSync('package.json', 'utf-8');
-console.log(pj);
-console.log(chalk.blue(w.getText()));
+const pj = JSON.parse(fs.readFileSync('package.json', 'utf-8'));
+
+console.log(`Running ${chalk.green.bold(pj.description)}`);
+console.log(`Hello ${chalk.blue(w.getText())}`);
