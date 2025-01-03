@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+## [1.1.1](https://github.com/ampretia/library-typescript-boilerplate/compare/v1.1.0...v1.1.1) (2025-01-03)
+
+
+### Bug Fixes
+
+* update husky ([c7d7aa1](https://github.com/ampretia/library-typescript-boilerplate/commit/c7d7aa17ca2a08e0b5e09234136a7c1d1334d50e))
+
 ## 1.1.0 (2025-01-03)
 
 
